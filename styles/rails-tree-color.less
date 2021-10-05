@@ -1,0 +1,44 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.tree-item {
+  content: '';
+  height: 2em;
+  width: 1000px;
+  position: absolute;
+  left: -4px;
+  z-index: -1;
+}
+
+span[data-path*="/app/controllers"]:after {
+  &:extend(.tree-item);
+  background-color: #44ee9625;
+}
+
+span[data-path*="/app/models"]:after {
+  &:extend(.tree-item);
+  background-color: #e6f42525;
+}
+
+span[data-path*="/app/views"]:after {
+  &:extend(.tree-item);
+  background-color: #e534be25;
+}
+
+span[data-path*="/spec"]:after {
+  &:extend(.tree-item);
+  background-color: #2fbeee25;
+}
+
+span[data-path*="/config"]:after {
+  &:extend(.tree-item);
+  background-color: #00000050;
+}
+
+span[data-path*="/helpers"]:after {
+  &:extend(.tree-item);
+  background-color: #f4252525;
+}

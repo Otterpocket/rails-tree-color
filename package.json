@@ -1,0 +1,14 @@
+{
+  "name": "rails-tree-color",
+  "main": "./lib/rails-tree-color",
+  "version": "0.0.0",
+  "description": "Adds context specfic colours to rails directories in the atom directory tree.",
+  "keywords": [],
+  "repository": "https://github.com/Otterpocket/rails-tree-color",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
