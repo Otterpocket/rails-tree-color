@@ -1,5 +1,3 @@
 # rails-tree-color package
 
-A short description of your package.
-
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+![image](https://user-images.githubusercontent.com/7274458/136018364-c800d3e3-bed8-4648-9e3f-e174da4431b0.png)
